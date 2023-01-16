@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Bottomnav from "./Bottomnav";
 import { Select } from "semantic-ui-react";
 import { getData } from "../chartHelper/chartapicall";
@@ -123,9 +123,9 @@ const apidata = () => {
 //getting data from api
 
 
-useEffect(() => {
+
        apidata();
-  }, []);
+
 
   return (
     <div>
