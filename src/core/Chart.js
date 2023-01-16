@@ -91,7 +91,7 @@ const Chart = () => {
   const [chartData,setChartData] = useState({});
   let dates = [];
   let highvalues = [];
-
+console.log(chartData);
 const apidata = () => {
   setChartData({
     labels :dates,
